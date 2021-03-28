@@ -9,4 +9,5 @@ Build Steps
 1) make
 2) sudo make install
 3) sudo depmod
-4) check for kernel in use via `lspci -v`
+4) sudo modprobe `rts5227`
+5) check for kernel in use via `lspci -v`
